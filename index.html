@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Películas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎬 Motor de Recomendación de Películas</h1>
+        <p>Valora algunas películas para que el sistema te recomiende otras que te podrían gustar.</p>
+    </header>
+
+    <main>
+        <section class="rating-section">
+            <h2>1. Valora estas películas</h2>
+            <div id="movie-list">
+                </div>
+            <button id="recommend-btn">Obtener Recomendaciones</button>
+            <div id="loading-spinner" class="loading-spinner"></div>
+        </section>
+        
+        <section class="results-section">
+            <h2>2. Tus Recomendaciones</h2>
+            <p id="results-intro" class="results-intro"></p>
+            <ul id="recommendations-list">
+                </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
